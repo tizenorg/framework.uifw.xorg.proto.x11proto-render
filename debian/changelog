@@ -1,0 +1,132 @@
+x11proto-render (2:0.11.1-1slp2) unstable; urgency=low
+
+  * [X11R7.6] upgrade package
+  * Git: 165.213.180.234:slp/pkgs/xorg/proto/x11proto-render
+  * Tag: x11proto-render_0.11.1-1slp2
+
+ -- SooChan Lim <sc1.lim@samsung.com>  Mon, 03 Jan 2011 20:27:51 +0900
+
+x11proto-render (2:0.11-6slp2) unstable; urgency=low
+
+  * To sync git and dpkg
+  * Git: 165.213.180.234:/git/slp/pkgs/xorg/proto/x11proto-render
+  * Tag: x11proto-render_0.11-6slp2
+
+ -- YoungHoon Jung <yhoon.jung@samsung.com>  Fri, 03 Dec 2010 16:06:01 +0900
+
+x11proto-render (2:0.11-5slp2) unstable; urgency=low
+
+  * To sync git and dpkg
+  * Git: 165.213.180.234:/git/slp/pkgs/xorg/proto/x11proto-render
+  * Tag: x11proto-render_0.11-5slp2
+
+ -- YoungHoon Jung <yhoon.jung@samsung.com>  Thu, 02 Dec 2010 15:50:26 +0900
+
+x11proto-render (2:0.11-4slp2) unstable; urgency=low
+
+  * update maintainer
+  * Git: 165.213.180.234:/git/slp2.0/slp2.0-pkgs/X11
+  * Tag: x11proto-render_0.11-4slp2
+
+ -- Sung-Jin Park <sj76.park@samsung.com>  Tue, 20 Apr 2010 17:29:01 +0900
+
+x11proto-render (2:0.11-3slp2) unstable; urgency=low
+
+  * Changed package name as a pure open souroce code.
+
+ -- YoungHoon Jung <yhoon.jung@samsung.com>  Thu, 25 Mar 2010 17:03:53 +0900
+
+x11proto-render (2:0.11-2) unstable; urgency=low
+
+  * Import debian package
+
+ -- Sung-Jin Park <sj76.park@samsung.com>  Mon, 21 Dec 2009 13:10:06 +0900
+
+x11proto-render (2:0.11-1) unstable; urgency=low
+
+  * Checkout from git 20091009 (master branch) up to commit
+    2a336d0528e2f88a940d003edc6655a1d65e6bd7
+  * Only added debian/ tree from origin/debian-unstable
+
+ -- Robert Hooker <sarvatt@ubuntu.com>  Fri, 09 Oct 2009 11:36:28 -0400
+
+x11proto-render (2:0.11-1) unstable; urgency=low
+
+  * Run autoreconf at build time.
+  * Bump debhelper compat to 5.
+  * Parse space-separated DEB_BUILD_OPTIONS, handle parallel=N.
+  * Drop Pre-Depends on x11-common and Conflicts/Replaces on render-dev.  This
+    was only needed for upgrades from sarge.
+  * Remove the XS- prefix from Vcs-* control fields.
+  * Add dependency on x11proto-core-dev.
+  * Bump Standards-Version to 3.8.3.
+  * New upstream release.
+
+ -- Julien Cristau <jcristau@debian.org>  Mon, 28 Sep 2009 18:16:15 +0200
+
+x11proto-render (2:0.9.3-2) unstable; urgency=low
+
+  * Upload to unstable
+
+ -- David Nusinow <dnusinow@debian.org>  Sun, 16 Sep 2007 13:46:14 -0400
+
+x11proto-render (2:0.9.3-1) experimental; urgency=low
+
+  [ Brice Goglin ]
+  * Drop render-dev transitional package since nobody in Etch uses it,
+    thanks Stefan Huehner, closes: #369102.
+  * Add URL in debian/copyright.
+  * Make the description more clear about providing development headers.
+  * Update references to upstream in the long description.
+  * Add XS-Vcs-* to debian/control.
+  * Remove Fabio from Uploaders, with his permission.
+
+  [ Julien Cristau ]
+  * New upstream release.
+  * Add myself to Uploaders and remove Branden with his permission.
+
+ -- Julien Cristau <jcristau@debian.org>  Mon, 03 Sep 2007 18:20:18 +0200
+
+x11proto-render (2:0.9.2-4) unstable; urgency=low
+
+  * Test for obj-$(DEB_BUILD_GNU_TYPE) before creating it during build;
+    idempotency fix.
+  * Run dh_install w/ --list-missing.
+  * Change debhelper build-dep-indep to a normal build-dep, as dh_clean
+    is called inside the clean rule.
+  * Drop duplicate x11-common dep in -dev package.
+  * Bump standards version to 3.7.2.0.
+  * Version x11-common pre-dep in -dev package to 1:7.0.0 to match
+    the rest of Debian.
+
+ -- Andres Salomon <dilinger@debian.org>  Fri, 21 Jul 2006 02:57:52 -0400
+
+x11proto-render (2:0.9.2-3) unstable; urgency=low
+
+  * Upload to unstable
+  * Have the main package replace and conflict with the current unstable
+    version of render-dev, 1.0.9.2-1. Thanks Frank Lichtenheld.
+    (closes: #361748)
+
+ -- David Nusinow <dnusinow@debian.org>  Mon, 10 Apr 2006 19:25:02 -0400
+
+x11proto-render (2:0.9.2-2) experimental; urgency=low
+
+  * Add epoch to versioned Pre-Depends on x11-common to make upgrades
+    from monolithic x11-common work (Closes: #351779).
+
+ -- Michel Dänzer <daenzer@debian.org>  Thu,  9 Feb 2006 16:41:02 +0100
+
+x11proto-render (2:0.9.2-1) experimental; urgency=low
+
+  * First upload to Debian
+
+ -- David Nusinow <dnusinow@debian.org>  Mon, 23 Jan 2006 22:07:26 -0500
+
+x11proto-render (1:0.9.0-1) breezy; urgency=low
+
+  * First x11proto-render release from the xorg tree.
+  * Epoched to match Debian's -- sigh.
+  * pkg-config file moved from render to renderproto.
+
+ -- Daniel Stone <daniel.stone@ubuntu.com>  Mon, 16 May 2005 22:10:17 +1000
