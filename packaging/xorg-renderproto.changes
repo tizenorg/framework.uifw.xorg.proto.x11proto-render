@@ -1,0 +1,14 @@
+* Fri Jun 22 2012 Anas Nashif <anas.nashif@intel.com> 3669ee7
+- fixed tarball naming
+
+* Wed May 30 2012 Ryan Ware <ryan.r.ware@intel.com> 3acf9ff
+- Add default Smack manifest for xorg-x11-proto-renderproto.spec
+
+* Fri May 18 2012 Yang Lin <lin.a.yang@intel.com> 99381a0
+- clean tarball setup path to facilitate hudson automation submission
+
+* Fri Jan 06 2012 Kibum Kim <kb0929.kim@samsung.com> ad994b0
+- Git init
+[ Eunkyoung Kim ]
+- Initial empty repository
+
