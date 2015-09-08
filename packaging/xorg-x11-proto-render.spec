@@ -1,7 +1,7 @@
 Name:     xorg-x11-proto-renderproto
 Summary:  X.Org X11 Protocol renderproto
 Version:  0.11.1
-Release:  1
+Release:  2
 Group:    Development/System
 License:  MIT
 URL:      http://www.x.org
@@ -45,3 +45,4 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{_includedir}/X11/extensions/*.h
 %{_datadir}/pkgconfig/*.pc
+
